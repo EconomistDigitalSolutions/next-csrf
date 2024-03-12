@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+# This is the name of the component that will show up in the sidebar
+kind: Component
+metadata:
+  name: next-csrf
+  title: next-csrf
+  description: CSRF mitigation for Next.js
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    # circleci.com/project-slug: NA 
+    # newrelic.com/dashboard-guid: NA
+    # snyk.io/org-name: NA
+    # snyk.io/project-ids: NA
+spec:
+  type: library
+  owner: group:the-economist-group/itops
+  lifecycle: Production
+   #system: NA
+   # providesApis :   
+     # 
+   # consumesApis : 
+     #
+---
+
+  
